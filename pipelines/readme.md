@@ -2,7 +2,7 @@
 > These pipelines demonstrate how to extract data from M365 via the Microsoft Graph
 ## Setting up a Pipeline to Pull User Data from Graph API
 1. Create linked service to GraphAPI
-     - First go to ADD &#8594; App registrations &#8594; New registration
+     - First go to AAD &#8594; App registrations &#8594; New registration
           - Now create a new app registration specifically for accessing the Graph API from Synapse.
      - Then click "Add Permission" &#8594; select "Microsoft Graph" &#8594; select "Application Permissions" &#8594; choose the "User.Read.All permission" &#8594; click on the "Add Permissions" button.
      - Go to "Certificates & Secrets" &#8594; add a new client secret &#8594; copy that value
