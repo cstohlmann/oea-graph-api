@@ -35,7 +35,7 @@
           - Run this notebook to do that:
           - (INSERT SCREENSHOT HERE)
           - Here's the script (you have to change the URL values to use your storage account name):
-          ```javascript
+          ```python
           %%pyspark
           from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType, ArrayType
           from pyspark.sql.functions import explode
