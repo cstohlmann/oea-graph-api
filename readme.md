@@ -13,7 +13,7 @@
 | Resource | Description |
 | --- | --- |
 | [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview) | intro to Graph API and what it can do |
-| Microsoft Graph REST API v1.0 reference | API ref doc for v1.0 |
+| [Microsoft Graph REST API v1.0 reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) | API ref doc for v1.0 |
 | Microsoft Graph beta endpoint reference | API ref doc for beta version |
 | Graph Explorer | utility that allows you to easily try out Graph API endpoints |
 | Use Postman with the Microsoft Graph API | info on setting up Postman to work with Graph API |
