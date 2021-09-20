@@ -1,5 +1,6 @@
 # Pipelines
-> These pipelines demonstrate how to extract data from M365 via the Microsoft Graph
+> These pipelines demonstrate how to extract data from M365 via the Microsoft Graph.
+> 
 > data extraction pipelines demonstrating how to utilize Azure Data Factory to pull data from the Graph API
 ## Setting up a Pipeline to Pull User Data from Graph API
 1. Create linked service to GraphAPI
