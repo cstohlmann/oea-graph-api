@@ -1,4 +1,6 @@
 # OEA Module: Microsoft Graph API
+## Updates:
+Include overview of [Microsoft Graphs documentation](https://docs.microsoft.com/en-us/graph/)
 ## What Gene originally had:
 ### Microsoft Graph module 
 > We plan to publish these assets soon - until then, here is a brief doc that describes how to create an integration pipeline and how to process the json data that is returned: Setting up a Graph API pipeline
