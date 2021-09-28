@@ -1,5 +1,9 @@
 # OEA Module: Microsoft Graph API
-Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes productivity data (Outlook, Calendar, Excel, etc), people and workspace intellegence, device and app management, and usage reports (Teams, Onedrive, Skype, etc). 
+Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes: 
+ - productivity data (e.g. Outlook, Calendar, Excel), 
+ - people and workspace intellegence, 
+ - device and app management, and 
+ - usage reports (e.g. Teams, Onedrive, Skype). 
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/images/Graph%20visual.png)
 <p align="center">
