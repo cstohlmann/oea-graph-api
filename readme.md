@@ -4,6 +4,7 @@
 Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes productivity data (Outlook, Calendar, Excel, etc), people and workspace intellegence, device and app management, and usage reports (Teams, Onedrive, Skype, etc). 
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/images/Graph%20visual.png)
+(Provided by Microsoft from [Microsoft Graph overview](https://docs.microsoft.com/en-us/graph/overview))
 
 This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed representation of student activities. This can be used by school administrators, and teachers to show:
 
