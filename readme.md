@@ -1,9 +1,9 @@
 # OEA Module: Microsoft Graph API
 ## Updates:
 ### Landing page synopsis
-Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes productivity data (Outlook, Calendar, Excel, etc), people and workspace intellegence, device and app management, and usage reports (Teams, Onedrive, Skype, etc). This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. The Microsoft Graph API Module is expected to be functional and live on the OEA Github by mid October, 2021. 
+Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes productivity data (Outlook, Calendar, Excel, etc), people and workspace intellegence, device and app management, and usage reports (Teams, Onedrive, Skype, etc). 
 
-This Graph API Module Sample from OEA includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed representation of student activities. This can be used by school administrators, and teachers to show:
+This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed representation of student activities. This can be used by school administrators, and teachers to show:
 
  - Which people within the system are utilizing Microsoft 365 applications online or via desktop (i.e. Word, Outlook, PowerPoing, Excel, Teams), over a reporting period of 180 days.
  - Which people within the system are interacting on Microsoft Teams, (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams. 
@@ -14,10 +14,9 @@ Sample out-of-the box assets for this OEA module include a pipeline which connec
 | Resource | Description |
 | --- | --- |
 | [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview) | intro to Graph API and what it can do |
-| [Microsoft Graph documentation page](https://docs.microsoft.com/en-us/graph/) | landing page of all documentation about Graph |
+| [Microsoft Graph documentation/resources](https://docs.microsoft.com/en-us/graph/) | landing page of all documentation about Graph |
 | [Microsoft Graph beta endpoint reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-beta) | API reference doc for Graph's beta version (used in this sample module) |
 | [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | utility that allows you to easily try out Graph API endpoints |
-| [Microsoft 365 reports from the admin center](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide) | reference doc on changing user data to be non-pseunonymized |
 | [Use Postman with the Microsoft Graph API](https://docs.microsoft.com/en-us/graph/use-postman) | info on setting up Postman to work with Graph API |
 
 ## What Gene originally had:
