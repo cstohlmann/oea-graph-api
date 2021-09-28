@@ -1,11 +1,9 @@
 # OEA Module: Microsoft Graph API
-## Updates:
-### Landing page synopsis
 Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes productivity data (Outlook, Calendar, Excel, etc), people and workspace intellegence, device and app management, and usage reports (Teams, Onedrive, Skype, etc). 
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/images/Graph%20visual.png)
 <p align="center">
-    (Provided by Microsoft from [Microsoft Graph overview](https://docs.microsoft.com/en-us/graph/overview))
+    <em>(Provided by Microsoft from https://docs.microsoft.com/en-us/graph/overview)</em>
 </p>
 
 
@@ -20,7 +18,7 @@ Sample out-of-the box assets for this OEA module include a pipeline which connec
 | Resource | Description |
 | --- | --- |
 | [Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview) | intro to Graph API and what it can do |
-| [Microsoft Graph documentation/resources](https://docs.microsoft.com/en-us/graph/) | landing page of all documentation about Graph |
+| [Microsoft Graph query documentation](https://docs.microsoft.com/en-us/graph/) | landing page of all documentation about Graph and queries that can be made |
 | [Microsoft Graph beta endpoint reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-beta) | API reference doc for Graph's beta version (used in this sample module) |
 | [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) | utility that allows you to easily try out Graph API endpoints |
 | [Use Postman with the Microsoft Graph API](https://docs.microsoft.com/en-us/graph/use-postman) | info on setting up Postman to work with Graph API |
