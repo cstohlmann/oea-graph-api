@@ -1,5 +1,6 @@
 # Pipeline
-This pipeline stores the raw data to stage 1 storage in JSON format and processes this data to stage 2 in parquet format. Stage 2 data served to a Spark database making data easily queried and accessed. 
+This pipeline copies and stores the raw Graph API data to stage 1 storage in JSON format.
+
 ## Setting up a Pipeline to Pull User Data from Graph API
 1. Create linked service to GraphAPI
      - First go to AAD &#8594; App registrations &#8594; New registration
