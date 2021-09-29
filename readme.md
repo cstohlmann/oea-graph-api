@@ -19,7 +19,7 @@ This OEA module will leverage the Azure Synapse environment to aid education sys
 Sample out-of-the box assets for this OEA module include: 
 - A pipeline which connects Graph API to the Synapse workspace,
 - a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines) and demonstration to build custom queries to pull data for your education tennant from Graph API,
-- a sample dataset, 
+- [sample datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets), 
 - an example notebook on processing the data from stage 1 to stage 2 within Synapse, and 
 - a Power BI sample template making it easy to interact with Graph data.
 
