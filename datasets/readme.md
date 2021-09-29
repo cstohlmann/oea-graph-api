@@ -1,9 +1,14 @@
-# Datasets
+# Sample Datasets
 
 Sample datasets provided in this module were created using the pipeline integration, landing 3 datasets into stage 1 of the data lake. These queries utilized the beta version of Graph API, and were:
-1. ``` beta/users?$select=givenName,surname,userPrincipalName,id ```
-2. ``` beta/reports/getM365AppUserDetail(period='D180')/content?$format=application/json ```
-3. ``` beta/reports/getTeamsUserActivityUserDetail(period='D180')?$format=application/json ```
+ - ``` beta/users?$select=givenName,surname,userPrincipalName,id ```
+ - ``` beta/reports/getM365AppUserDetail(period='D180')/content?$format=application/json ```
+ - ``` beta/reports/getTeamsUserActivityUserDetail(period='D180')?$format=application/json ```
+
+In order to use these sample datasets, go through the following instructions:
+1. Download all three of the JSON files. 
+2. Within the "stage1np" folder in your Azure Synapse environment, you'll have to create a folder, titled "GraphAPI" (spelled exactly like this - so the notebook can run properly). 
+3. Then, in  the "GraphAPI" folder, upload these three files. Now you're ready to use the sample notebook!
 
 ### For more info on these queries
 | Resource | Description |
