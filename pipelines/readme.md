@@ -1,7 +1,5 @@
-# Pipelines
-> These pipelines demonstrate how to extract data from M365 via the Microsoft Graph.
-> 
-> data extraction pipelines demonstrating how to utilize Azure Data Factory to pull data from the Graph API
+# Pipeline
+This pipeline stores the raw data to stage 1 storage in JSON format and processes this data to stage 2 in parquet format. Stage 2 data served to a Spark database making data easily queried and accessed. 
 ## Setting up a Pipeline to Pull User Data from Graph API
 1. Create linked service to GraphAPI
      - First go to AAD &#8594; App registrations &#8594; New registration
