@@ -10,7 +10,7 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
 This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed representation of student activities. The example within this module would be used by school administrators and teachers to show:
 
  - Which people within the system are utilizing Microsoft 365 applications online or via desktop (i.e. Word, Outlook, PowerPoing, Excel, Teams), over a reporting period of 180 days.
- - Which people within the system are interacting on Microsoft Teams, (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams. 
+ - Which people within the system are interacting on Microsoft Teams (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams, over a reporting period of 180 days. 
  <p align="center">
     <em><strong>(INCLUDE A SAMPLE PICTURE OF POWERBI DASHBOARD)</em></strong>
 </p>
