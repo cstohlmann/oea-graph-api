@@ -5,7 +5,7 @@ Sample datasets provided in this module were created using the pipeline integrat
 2. ``` beta/reports/getM365AppUserDetail(period='D180')/content?$format=application/json ```
 3. ``` beta/reports/getTeamsUserActivityUserDetail(period='D180')?$format=application/json ```
 
-### For documentation on these queries...
+### For more info on these queries
 | Resource | Description |
 | --- | --- |
 | [Microsoft Graph query documentation](https://docs.microsoft.com/en-us/graph/) | landing page of all documentation about Graph and queries that can be made |
