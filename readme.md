@@ -1,7 +1,7 @@
 # OEA Module: Microsoft Graph API
 Microsoft Graph is an all-inclusive tool which provides a gateway to data and intelligence in Microsoft 365, Microsoft Teams, and more. Data is freely available for students, teachers, and staff and includes: productivity data (e.g. Outlook, Calendar, Excel), people and workspace intellegence, device and app management, and usage reports (e.g. Teams, Onedrive, Skype). 
 
-![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/images/Graph%20visual.png)
+![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20visual.png)
 <p align="center">
     <em>(Provided by Microsoft from https://docs.microsoft.com/en-us/graph/overview)</em>
 </p>
@@ -19,7 +19,7 @@ To get the example module running, first go to the datasets folder.
 ## Module Components
 Sample out-of-the box assets for this OEA module include: 
 1. [Sample Datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets): Ingest sample data to understand the utility and funcationality of the notebook(s).
-2. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace, as well as a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines), and demonstration to build custom queries to pull data for your education tennant from Graph API.
+2. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace, as well as a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/documents/Graph_API_Pipeline.pdf), and demonstration to build custom queries to pull data for your education tennant from Graph API.
 4. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
 5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
  <p align="center">
