@@ -18,10 +18,10 @@ To get the example module running, first go to the datasets folder.
 
 ## Module Components
 Sample out-of-the box assets for this OEA module include: 
-1. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace, as well as a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines), and demonstration to build custom queries to pull data for your education tennant from Graph API.
-2. [Sample datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets): Ingest sample data to understand the utility and funcationality of the notebook(s).
-3. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
-4. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
+1. [Sample Datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets): Ingest sample data to understand the utility and funcationality of the notebook(s).
+2. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace, as well as a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines), and demonstration to build custom queries to pull data for your education tennant from Graph API.
+4. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
+5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
  <p align="center">
     <em><strong>(INCLUDE A SAMPLE PICTURE OF POWERBI DASHBOARD)</em></strong>
 </p>
