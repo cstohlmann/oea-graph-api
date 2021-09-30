@@ -7,7 +7,11 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
 </p>
 
 ## Problem Statement
+As an online eductor, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
 
+With Teams, you can build intuition during online sessions/lectures, but understanding which students are contributing the most/least is crucial to making sure students are truly learning. With Microsoft 365, if you assign longterm projects, you may want to see if students are using the M365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
+
+Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
 ## Module Impact
 This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed and accurate representation of students' online activities. The example within this module would be used by school administrators and teachers to show:
 
