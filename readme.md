@@ -6,22 +6,29 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
     <em>(Provided by Microsoft from https://docs.microsoft.com/en-us/graph/overview)</em>
 </p>
 
+## Problem Statement
 
-This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed representation of student activities. The example within this module would be used by school administrators and teachers to show:
+## Module Impact
+This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed and accurate representation of students' online activities. The example within this module would be used by school administrators and teachers to show:
 
  - Which people within the system are utilizing Microsoft 365 applications online or via desktop (i.e. Word, Outlook, PowerPoing, Excel, Teams), over a reporting period of 180 days.
  - Which people within the system are interacting on Microsoft Teams (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams, over a reporting period of 180 days. 
+
+To get the example module running, first go to the datasets folder.
+
+## Module Components
+Sample out-of-the box assets for this OEA module include: 
+1. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace, as well as a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines), and demonstration to build custom queries to pull data for your education tennant from Graph API.
+2. [Sample datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets): Ingest sample data to understand the utility and funcationality of the notebook(s).
+3. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
+4. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
  <p align="center">
     <em><strong>(INCLUDE A SAMPLE PICTURE OF POWERBI DASHBOARD)</em></strong>
 </p>
- 
 
-Sample out-of-the box assets for this OEA module include: 
-- A pipeline which connects Graph API to the Synapse workspace,
-- a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines) and demonstration to build custom queries to pull data for your education tennant from Graph API,
-- [sample datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets), 
-- an example notebook on processing the data from stage 1 to stage 2 within Synapse, and 
-- a Power BI sample template making it easy to interact with Graph data.
+The Graph API module welcome contributions.
+
+This module was developed by Christian Stohlmann & Chad Vidden. The architecture and reference implementation for all modules is built on Azure Synapse Analytics - with Azure Data Lake Storage as the storage backbone, and Azure Active Directory providing the role-based access control.
 
 ### For more info
 | Resource | Description |
@@ -36,3 +43,12 @@ Sample out-of-the box assets for this OEA module include:
 [Microsoft Graph data connect](https://docs.microsoft.com/en-us/graph/data-connect-concept-overview) provides access to [some M365 data](https://docs.microsoft.com/en-us/graph/data-connect-datasets) at scale, using Azure Data Factory.
 
 This module demonstrates the use of Graph API only - for an example of how to use data connect with Azure Data Factory, see: [msgraph-training-dataconnect](https://github.com/microsoftgraph/msgraph-training-dataconnect)
+
+# Legal Notices
+Microsoft and any contributors grant you a license to the Microsoft documentation and other content in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode), see the [LICENSE] file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the [LICENSE-CODE] file.
+
+Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries. The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks. Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
+
+Privacy information can be found at https://privacy.microsoft.com/en-us/
+
+Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents, or trademarks, whether by implication, estoppel or otherwise.
