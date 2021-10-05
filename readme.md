@@ -15,7 +15,7 @@ Pulling data using this Graph API module provides solutions to these scenarios, 
 ## Module Impact
 This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft 365 and Microsoft Teams, providing a more detailed and accurate representation of students' online activities. The example within this module would be used by school administrators and teachers to show:
 
- - Which people within the system are utilizing Microsoft 365 applications online or via desktop (i.e. Word, Outlook, PowerPoing, Excel, Teams), over a reporting period of 180 days.
+ - Which people within the system are utilizing Microsoft 365 applications online or via desktop (i.e. Word, Outlook, PowerPoint, Excel, Teams), over a reporting period of 180 days.
  - Which people within the system are interacting on Microsoft Teams (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams, over a reporting period of 180 days. 
 
 To get the example module running, first go to the datasets folder.
