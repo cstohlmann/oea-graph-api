@@ -9,7 +9,7 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
 ## Problem Statement
 As an online educator, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
 
-With Teams, you can build intuition during online sessions/lectures, but understanding which students are contributing the most/least is crucial to making sure students are truly learning. With Microsoft 365, if you assign longterm projects, you may want to see if students are using the 365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
+Using Microsoft Teams, you may build intuition during online sessions/lectures, but using data trends as to which students are contributing the most/least is crucial to making sure students are truly active and learning. If you were to assign longterm projects, you may want to see if students are using the Microsoft 365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
 
 Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
 ## Module Impact
