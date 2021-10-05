@@ -7,7 +7,7 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
 </p>
 
 ## Problem Statement
-As an online eductor, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
+As an online educator, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
 
 With Teams, you can build intuition during online sessions/lectures, but understanding which students are contributing the most/least is crucial to making sure students are truly learning. With Microsoft 365, if you assign longterm projects, you may want to see if students are using the M365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
 
