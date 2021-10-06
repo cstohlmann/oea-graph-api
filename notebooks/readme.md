@@ -5,15 +5,15 @@ All data generated from the use of Graph API is taken in JSON format, and landed
 ## Databases and Tables
 | Databases Created | Tables Created | Table Purpose | Data Source Used | Data Used |
 | --- | --- | --- | --- | --- |
-| graphapi | users | Contains all students' and teachers' Microsoft user information | stage 1np GraphAPI data: users | surname |
+| graphapi | users | Contains all students' and teachers' Microsoft user information | stage 1np GraphAPI data: users.json | surname |
 | | | | | givenName |
 | | | | | userPrincipalName |
 | | | | | givenName |
-| graphapi | m365_app_user_detail | Contains past 180 days of students' and teachers' Microsoft 365 applications activity per user | stage 1np GraphAPI data: m365_app_user_detail | reportRefreshDate |
+| graphapi | m365_app_user_detail | Contains past 180 days of students' and teachers' Microsoft 365 applications activity per user | stage 1np GraphAPI data: m365_app_user_detail.json | reportRefreshDate |
 | | | | | userPrincipalName |
 | | | | | lastActivityDate |
 | | | | | details: \[excelWeb, outlookWeb, powerPoint, teamsWeb, teams, outlook, reportPeriod, excel, powerPointWeb, wordWeb, word\]|
-| graphapi | teams_activity_user_details | Contains past 180 days of students' and teachers' Microsoft Teams activity per user | stage 1np GraphAPI data: teams_activity_user_details | reportRefreshDate |
+| graphapi | teams_activity_user_details | Contains past 180 days of students' and teachers' Microsoft Teams activity per user | stage 1np GraphAPI data: teams_activity_user_details.json | reportRefreshDate |
 | | | | | reportPeriod |
 | | | | | userPrincipalName |
 | | | | | privateChatMessageCount |
