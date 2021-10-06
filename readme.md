@@ -26,9 +26,8 @@ Sample out-of-the box assets for this OEA module include:
 2. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace, as well as a [tutorial on setting up your own pipeline](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/documents/Graph_API_Pipeline.pdf), and demonstration to build custom queries to pull data for your education tennant from Graph API.
 4. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
 5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
- <p align="center">
-    <em><strong>(INCLUDE A SAMPLE PICTURE OF POWERBI DASHBOARD)</em></strong>
-</p>
+
+![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.png)
 
 The Graph API module welcome contributions.
 
