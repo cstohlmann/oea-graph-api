@@ -8,7 +8,7 @@ Sample datasets provided in this module were created using the pipeline integrat
 In order to use these sample datasets, go through the following instructions:
 1. Download all three of the JSON files. 
 2. Within the "stage1np" folder in your Azure Synapse environment, you'll have to create a folder, titled "GraphAPI". 
-3. Then, in  the "GraphAPI" folder, upload these three files. Now you're ready to use the sample notebook!
+3. Then, in  the "GraphAPI" folder, upload these three files. Now you're ready to use the sample notebook.
 
 ### For more info on these queries
 | Resource | Description |
