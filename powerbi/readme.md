@@ -1,5 +1,4 @@
 # PowerBI template
-### (TO BE ADDED)
 
 The Graph PowerBI template consists of 1 page:
 
