@@ -14,7 +14,7 @@ This notebook filters out unused data from the raw dataset within stage 1, by th
 | | | | | userPrincipalName |
 | | | | | lastActivityDate |
 | | | | | details: \[excelWeb, outlookWeb, powerPoint, teamsWeb, teams, outlook, reportPeriod, excel, powerPointWeb, wordWeb, word\]|
-| graphapi | teams_activity_user_details | Contains past 180 days of students' and teachers' Microsoft Teams activity per user | stage 1np GraphAPI data: teams_activity_user_details.json | reportRefreshDate |
+| s2np_graphapi | teams_activity_user_details | Contains past 180 days of students' and teachers' Microsoft Teams activity per user | stage 1np GraphAPI data: teams_activity_user_details.json | reportRefreshDate |
 | | | | | reportPeriod |
 | | | | | userPrincipalName |
 | | | | | privateChatMessageCount |
