@@ -6,7 +6,7 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
     <em>(Provided by Microsoft from https://docs.microsoft.com/en-us/graph/overview)</em>
 </p>
 
-## Problem Statement [NEEDS TO BE REWORKED]
+## Problem Statement [TO BE REWORKED]
 As an online educator, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
 
 Using Microsoft Teams, you may build intuition during online sessions/lectures, but using data trends as to which students are contributing the most/least is crucial to making sure students are truly active and learning. If you were to assign longterm projects, you may want to see if students are using the Microsoft 365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
@@ -28,8 +28,9 @@ Sample out-of-the box assets for this OEA module include:
 4. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
 5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
 
+![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.png)
 <p align="center">
-    <em> <strong>(SAMPLE PICTURE OF POWERBI DASHBOARD NEEDS TO BE ADDED; WITH HASHED USERNAMES)</em></strong>
+    <em> <strong>(NEEDS TO BE CHANGED; WITH HASHED USERNAMES AND NO ACTUAL NAMES)</em></strong>
 </p>
 
 The Graph API module welcome contributions.
