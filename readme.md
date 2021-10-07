@@ -28,9 +28,8 @@ Sample out-of-the box assets for this OEA module include:
 4. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
 5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
 
-![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.png)
 <p align="center">
-    <em> <strong>(NEEDS TO BE EDITED)</em></strong>
+    <em> <strong>(SAMPLE PICTURE OF POWERBI DASHBOARD NEEDS TO BE ADDED; WITH HASHED USERNAMES)</em></strong>
 </p>
 
 The Graph API module welcome contributions.
