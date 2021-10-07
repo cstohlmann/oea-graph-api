@@ -6,13 +6,13 @@ Microsoft Graph is an all-inclusive tool which provides a gateway to data and in
     <em>(Provided by Microsoft from https://docs.microsoft.com/en-us/graph/overview)</em>
 </p>
 
-## Problem Statement
+## Problem Statement [NEEDS TO BE REWORKED]
 As an online educator, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
 
 Using Microsoft Teams, you may build intuition during online sessions/lectures, but using data trends as to which students are contributing the most/least is crucial to making sure students are truly active and learning. If you were to assign longterm projects, you may want to see if students are using the Microsoft 365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
 
 Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
-## Module Impact
+## Module Impact 
 This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft Teams and 365, providing a more detailed and accurate representation of students' online activities. The example within this module would be used by school administrators and teachers to show:
 
  - Which people within the system are interacting on Microsoft Teams (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams, over a reporting period of 180 days. 
@@ -29,6 +29,9 @@ Sample out-of-the box assets for this OEA module include:
 5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.png)
+<p align="center">
+    <em> <strong>(NEEDS TO BE EDITED)</em></strong>
+</p>
 
 The Graph API module welcome contributions.
 
