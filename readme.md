@@ -5,7 +5,7 @@ You can use this OEA Microsoft Graph Reports API module to incorporate O365 usag
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20visual.png)
 <p align="center">
-Microsoft documentation on Graph Reports API: [Microsoft Graph reports API overview - Microsoft Graph | Microsoft Docs] (https://docs.microsoft.com/en-us/graph/overview) 
+Microsoft documentation on Graph Reports API (https://docs.microsoft.com/en-us/graph/overview) 
 </p>
 
 ## Problem Statement [TO BE REWORKED]
