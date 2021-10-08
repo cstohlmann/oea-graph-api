@@ -4,16 +4,23 @@ Microsoft Graph Reports API can provide data from Microsoft Teams and other O365
 You can use this OEA Microsoft Graph Reports API module to incorporate O365 usage data into your organization's OEA data lakes.
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20visual.png)
-<p align="center">
-Microsoft documentation on Graph Reports API (https://docs.microsoft.com/en-us/graph/overview) 
-</p>
+ <p align="center">
+ <emp>
+ (Microsoft documentation on Graph Reports API: https://docs.microsoft.com/en-us/graph/overview) 
+ </emp.
+ </p>
 
 ## Problem Statement [TO BE REWORKED]
-As an online educator, one of the most difficult things to see is whether students are actually participating, asking questions, or using their resources. 
+As education systems and institutions use more digital learning platforms, services, and applications as part of the teaching and learning process, they need data on how and when students and educators are using those tools. This “usage” data can be combined with other data sources, such as assessment or financial data, to analyze the relationship between the tools, learning, and costs, for example. 
 
-Using Microsoft Teams, you may build intuition during online sessions/lectures, but using data trends as to which students are contributing the most/least is crucial to making sure students are truly active and learning. If you were to assign longterm projects, you may want to see if students are using the Microsoft 365 resources to complete the project (e.g. Word, PowerPoint, Excel). 
+Microsoft Graph Reports API data can be used for many different education purposes:
+- Education system leader reports on level of usage of various O365 applications, including Microsoft Teams. 
+ -	If combined with data from Student Information Systems, this usage data can be reported by student demographics, school rosters, or learning outcome data (SIS data not included in this module).
+-	School dashboards on which O365 apps are being used.
+-	Class dashboards for teachers to see students’ attendance in Teams Meetings and participation in chat; or student use of PowerPoint, Word, or Excel.  
 
 Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
+  
 ## Module Impact 
 This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft Teams and 365, providing a more detailed and accurate representation of students' online activities. The example within this module would be used by school administrators and teachers to show:
 
