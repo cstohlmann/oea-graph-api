@@ -14,10 +14,10 @@ You can use this OEA Microsoft Graph Reports API module to incorporate O365 usag
 As education systems and institutions use more digital learning platforms, services, and applications as part of the teaching and learning process, they need data on how and when students and educators are using those tools. This “usage” data can be combined with other data sources, such as assessment or financial data, to analyze the relationship between the tools, learning, and costs, for example. 
 
 Microsoft Graph Reports API data can be used for many different education purposes:
-- Education system leader reports on level of usage of various O365 applications, including Microsoft Teams. 
- -	If combined with data from Student Information Systems, this usage data can be reported by student demographics, school rosters, or learning outcome data (SIS data not included in this module).
--	School dashboards on which O365 apps are being used.
--	Class dashboards for teachers to see students’ attendance in Teams Meetings and participation in chat; or student use of PowerPoint, Word, or Excel.  
+  - Education system leader reports on level of usage of various O365 applications, including Microsoft Teams. 
+     *	If combined with data from Student Information Systems, this usage data can be reported by student demographics, school rosters, or learning outcome data (SIS data not included in this module).
+  -	School dashboards on which O365 apps are being used.
+  -	Class dashboards for teachers to see students’ attendance in Teams Meetings and participation in chat; or student use of PowerPoint, Word, or Excel.  
 
 Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
   
