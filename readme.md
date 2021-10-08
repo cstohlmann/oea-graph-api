@@ -6,11 +6,11 @@ You can use this OEA Microsoft Graph Reports API module to incorporate O365 usag
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20visual.png)
  <p align="center">
  <emp>
- (Microsoft documentation on Graph Reports API: https://docs.microsoft.com/en-us/graph/overview) 
+ (Microsoft documentation on Graph Reports API: https://docs.microsoft.com/en-us/graph/reportroot-concept-overview) 
  </emp.
  </p>
 
-## Problem Statement [TO BE REWORKED]
+## Problem Statement
 As education systems and institutions use more digital learning platforms, services, and applications as part of the teaching and learning process, they need data on how and when students and educators are using those tools. This “usage” data can be combined with other data sources, such as assessment or financial data, to analyze the relationship between the tools, learning, and costs, for example. 
 
 Microsoft Graph Reports API data can be used for many different education purposes:
@@ -22,29 +22,32 @@ Microsoft Graph Reports API data can be used for many different education purpos
 Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
   
 ## Module Impact 
-This OEA module will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft Teams and 365, providing a more detailed and accurate representation of students' online activities. The example within this module would be used by school administrators and teachers to show:
+This Microsoft Graph Reports API module for OEA will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft Teams and some O365 apps, providing a more detailed and accurate representation of online teaching and learning activities. The PowerBI templates included in this module can be used by system and school leaders to show:
 
- - Which people within the system are interacting on Microsoft Teams (i.e. message counts, meetings attended, etc), to give a detailed breakdown of student engagement within Teams, over a reporting period of 180 days. 
- - Which people within the system are utilizing Microsoft 365 applications online or via desktop (i.e. Word, Outlook, PowerPoint, Excel, Teams), over a reporting period of 180 days.
+  - Which apps are being used across the entire O365 tenant, over time and by time of day.
+     * Number of Teams meetings in the O365 tenant participated in by all users over time
+     * Time of day of Teams meetings
+     * Number of people per meeting
+     * Number of private and Team chat messages over time and by time of day
 
-This example module currently represents data from Microsoft Teams and 365 for Digital Activities, but can be combined with other Graph queries of data within the use of Microsoft platforms; to identify how patterns of online activity affect learning outcomes. With such combined data, schools and teachers can start to analyze whether new programs or interventions help to improve learning outcomes.  
+These dashboard examples represent only data from Microsoft Teams and O365. When this data is combined with other data sources, they can illustrate how patterns of digital activity relate to learning outcomes. With such combined data, education systems can start to analyze whether new programs or interventions help to improve teaching and learning with digital tools.  
 
 ## Module Components
 Sample out-of-the box assets for this OEA module include: 
-1. [Tutorial](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/documents/Graph%20API%20Pipeline%20Tutorial.pdf): A tutorial of how to use this module within your own Synapse workspace, as well as demonstration to build custom queries to pull data for your education tennant from Graph API.
-2. [Sample Datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets): Ingest sample data to understand the utility and funcationality of the notebook(s).
-3. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Graph API to the Synapse workspace.
+1. [Tutorial](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/documents/Graph%20API%20Pipeline%20Tutorial.pdf): A tutorial of how to use this module within your own Synapse workspace, as well as demonstration to build custom queries to pull data for your education tenant from Microsoft Graph Reports API.
+2. [Sample Datasets](https://github.com/cstohlmann/oea-graph-api/tree/main/datasets): Ingest sample data to understand the utility and functionality of the notebook(s).
+3. [Pipeline(s)](https://github.com/cstohlmann/oea-graph-api/tree/main/pipelines): A pipeline which connects Microsoft Graph Reports API to the Synapse workspace.
 4. [Notebooks](https://github.com/cstohlmann/oea-graph-api/tree/main/notebooks): An example notebook on processing the data from stage 1 to stage 2 within Synapse. 
-5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Graph data.
+5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Microsoft Graph Reports API data.
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.png)
 <p align="center">
     <em> <strong>(NEEDS TO BE CHANGED; WITH HASHED USERNAMES AND NO ACTUAL NAMES)</em></strong>
 </p>
 
-The Graph API module welcome contributions.
+The Microsoft Graph Reports API module welcomes contributions.
 
-This module was developed by Christian Stohlmann & Chad Vidden. The architecture and reference implementation for all modules is built on Azure Synapse Analytics - with Azure Data Lake Storage as the storage backbone, and Azure Active Directory providing the role-based access control.
+This module was developed by Christian Stohlmann and Chad Vidden. The architecture and reference implementation for all modules is built on Azure Synapse Analytics - with Azure Data Lake Storage as the storage backbone, and Azure Active Directory providing the role-based access control.
 
 ### For more info
 | Resource | Description |
