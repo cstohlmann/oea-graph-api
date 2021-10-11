@@ -6,7 +6,7 @@ The Graph PowerBI template consists of 1 page:
  - Total Private and Aggregate Teams Messages by userPrincipleName and Audio Duration - shows the breakdown of all users' private and aggregate Teams messages, per audio duration. This shows the interaction levels within Teams for any particular user.
  - Total Meetings Attended and Scheduled by userPrincipalName - shows a comparison of how many users attended the meetings that were scheduled in Teams (by default, in this example, everyone attended the meeting that was scheduled).
 
-![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.png)
+![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.PNG)
 
 ## Star Schema
 This PowerBI module is made up of the following tables: users, m365_app_user_detail, and teams_activity_user_details. The dimension table is users and the fact tables are m365_app_user_detail and teams_activity_user_details.
