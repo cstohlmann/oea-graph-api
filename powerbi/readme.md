@@ -11,7 +11,7 @@ The Graph PowerBI template consists of 1 page:
 ## Star Schema
 This PowerBI module is made up of the following tables: users, m365_app_user_detail, and teams_activity_user_details. The dimension table is users and the fact tables are m365_app_user_detail and teams_activity_user_details.
 
-![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/star%20schema%20for%20Graph%20example.PNG)
+![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/star%20schema%20for%20Graph%20example.png)
 
 ### Table Details 
 | Table | Column | Description |
