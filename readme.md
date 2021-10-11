@@ -47,7 +47,7 @@ Sample out-of-the box assets for this OEA module include:
 
 The Microsoft Graph Reports API module welcomes contributions.
 
-This module was developed by Christian Stohlmann and Chad Vidden. The architecture and reference implementation for all modules is built on Azure Synapse Analytics - with Azure Data Lake Storage as the storage backbone, and Azure Active Directory providing the role-based access control.
+This module was developed by [Kwantum Analytics](https://www.kwantumanalytics.com/). The architecture and reference implementation for all modules is built on Azure Synapse Analytics - with Azure Data Lake Storage as the storage backbone, and Azure Active Directory providing the role-based access control.
 
 ### For more info
 | Resource | Description |
