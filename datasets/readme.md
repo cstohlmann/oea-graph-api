@@ -5,7 +5,7 @@ Sample datasets provided in this module were created using the pipeline integrat
  - Microsoft 365 Applications User Detail: ``` beta/reports/getM365AppUserDetail(period='D180')/content?$format=application/json ```
  - Teams Activity User Detail: ``` beta/reports/getTeamsUserActivityUserDetail(period='D180')?$format=application/json ```
 
-Use this dataset by downloading the "GraphAPI folder" and uploading to your Synapse environment. Follow the tutorial documentation [here](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/documents/Graph%20Reports%20API%20Tutorial.pdf) for implementing these datasets, and using them for the pipeline template provided in this Graph Reports API module.
+Use this dataset by downloading the "GraphAPI" folder and uploading to your Synapse environment. Follow the tutorial documentation [here](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/documents/Graph%20Reports%20API%20Tutorial.pdf) for implementing these datasets, and using them for the pipeline template provided in this Graph Reports API module.
 ### For more info on these queries
 | Resource | Description |
 | --- | --- |
