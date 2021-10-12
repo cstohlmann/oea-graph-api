@@ -16,11 +16,11 @@ This PowerBI module is made up of the following tables: users, m365_app_user_det
 ### Table Details 
 | Table | Column | Description |
 | --- | --- | --- |
-| users | givenName | First name of a user |
-| | id | Unique ID assigned to a user |
-| | surname | Last name of a user |
-| | userPrincipalName | Email address identifier of a user |
-| m365_app_user_detail | userPrincipalName | Email address identifier of a user |
+| users | givenName | Masked first name of a user |
+| | id | Masked unique ID assigned to a user |
+| | surname | Masked last name of a user |
+| | userPrincipalName_pseudonymized | Hashed email address identifier of a user |
+| m365_app_user_detail | userPrincipalName_pseudonymized | Hashed email address identifier of a user |
 | | reportRefreshDate | Date that the report was generated |
 | | reportPeriod | Number of days being reported up to the report refresh date |
 | | lastActivityDate | Last day a user had activity in any app |
@@ -34,7 +34,7 @@ This PowerBI module is made up of the following tables: users, m365_app_user_det
 | | teamsWeb | Boolean expression of if a user used this app over the report period |
 | | word | Boolean expression of if a user used this app over the report period |
 | | wordWeb | Boolean expression of if a user used this app over the report period |
-| teams_activity_user_details | userPrincipalName | Email address identifier of a user |
+| teams_activity_user_details | userPrincipalName_pseudonymized | Hashed email address identifier of a user |
 | | reportRefreshDate | Date that the report was generated |
 | | reportPeriod | Number of days being reported up to the report refresh date |
 | | audioDuration | Audio duration a user participated in |
