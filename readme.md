@@ -41,9 +41,6 @@ Sample out-of-the box assets for this OEA module include:
 5. [PowerBI Templates](https://github.com/cstohlmann/oea-graph-api/tree/main/powerbi): A Power BI sample template making it easy to interact with Microsoft Graph Reports API data.
 
 ![alt text](https://github.com/cstohlmann/oea-graph-api/blob/main/docs/images/Graph%20API%20Example%20Dashboard.PNG)
-<p align="center">
-    <em> <strong>(NEEDS TO BE CHANGED; WITH HASHED USERNAMES AND NO ACTUAL NAMES)</em></strong>
-</p>
 
 The Microsoft Graph Reports API module welcomes contributions.
 
