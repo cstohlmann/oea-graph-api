@@ -1,4 +1,4 @@
-# OEA Module: Microsoft Graph Reports API
+# Microsoft Graph Reports API Module
 Microsoft Graph Reports API can provide data from Microsoft Teams and other O365 applications. Data is freely available and includes usage data from Teams, Outlook, Excel, PowerPoint, and Word.
 
 You can use this OEA Microsoft Graph Reports API module to incorporate O365 usage data into your organization's OEA data lakes.
