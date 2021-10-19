@@ -19,7 +19,7 @@ Microsoft Graph Reports API data can be used for many different education purpos
   -	School dashboards on which O365 apps are being used.
   -	Class dashboards for teachers to see students’ attendance in Teams Meetings and participation in chat; or student use of PowerPoint, Word, or Excel.  
 
-Pulling data using this Graph API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
+Pulling data using this Microsoft Graph Reports API module provides solutions to these scenarios, as well as many more instances to extract a wide variety of activities that students engage in, while online.
   
 ## Module Impact 
 This Microsoft Graph Reports API module for OEA will leverage the Azure Synapse environment to aid education systems in bringing this data to their own Azure data lake for analysis. This includes a pipeline for extracting digital activity from Microsoft Teams and some O365 apps, providing a more detailed and accurate representation of online teaching and learning activities. The PowerBI templates included in this module can be used by system and school leaders to show:
