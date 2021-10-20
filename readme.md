@@ -32,8 +32,18 @@ This Microsoft Graph Reports API module for OEA will leverage the Azure Synapse 
 
 These dashboard examples represent only data from Microsoft Teams and O365. When this data is combined with other data sources, they can illustrate how patterns of digital activity relate to learning outcomes. With such combined data, education systems can start to analyze whether new programs or interventions help to improve teaching and learning with digital tools.  
 
+## Data Sources and Module Setup 
+### Data Sources
+<strong><em> Description of data sources: what it is used for, data available, data format, possible use cases or OEA packages it can be used for. </strong></em>
+ - The Graph Reports API data sources are used for ingesting Microsoft Teams and O365 "usage" data, as explained above. There are also additional data sources that can be ingested upon creating your own pipeline, or adding to the pipeline template provided. 
+ - The data ingested can either be formatted as JSON or CSV, although the pipeline template and datasets provided utilize the JSON format. 
+ - For more information on the Graph Reports API datasets/data sources, open up the [datasets folder](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets).
+### Module Setup
+<strong><em> Explanation of how to use the module: prerequisites (like subscriptions), what types of data transfer services can be used to ingest in OEA. </strong></em>
+ - [Still needs to be completed]
+
 ## Module Components
-Sample out-of-the box assets for this OEA module include: 
+Out-of-the box assets for this OEA module include: 
 1. [Tutorial](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/docs/documents/Graph%20Reports%20API%20Tutorial.pdf): A tutorial of how to use this module within your own Synapse workspace, as well as demonstration to build custom queries to pull data for your education tenant from Microsoft Graph Reports API.
 2. [Sample Datasets](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets): Ingest sample data to understand the utility and functionality of the notebook(s).
 3. [Pipeline(s)](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/pipelines): A pipeline which connects Microsoft Graph Reports API to the Synapse workspace.
