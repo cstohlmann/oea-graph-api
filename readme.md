@@ -40,7 +40,13 @@ These dashboard examples represent only data from Microsoft Teams and O365. When
  - For more information on the Graph Reports API datasets/data sources, open up the [datasets folder](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets).
 ### Module Setup
 <strong><em> Explanation of how to use the module: prerequisites (like subscriptions), what types of data transfer services can be used to ingest in OEA. </strong></em>
- - [Still needs to be completed]
+ 1. To first familiarize yourself with this module, and what data Graph Reports API can offer: you'll need to start by retrieving the cloned/downloaded [the datasets](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets), [the notebook](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/notebooks/GraphAPI_module_setup.ipynb), and [the PowerBI dashboard template](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/powerbi/graphReportsAPI.pbix) within this module. 
+     * Then, upload the GraphAPI folder containing the datasets, and the notebook to your Azure Synapse environment.
+     * Run the notebook. Then, you can open up the PowerBI dashboard template (you'll want to use a DirectQuery of the serverless SQL database; [click here for information on how to do this](https://github.com/microsoft/OpenEduAnalytics/blob/main/docs/OpenEduAnalyticsSolutionGuide.pdf)).
+     * You can interact with the dashboard to gain understanding of what this template within the scope of this module.
+2. To use your own data from Graph Reports API, you can start by downloading our [pipeline template](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/pipelines/GraphAPI_Pipeline.zip).
+     * The tutorial explains a step-by-step process of setting your Synapse environment to land Graph Reports API data via managing the endpoints within a pipeline (go through steps 1-2, skip step 3, and follow from step 4 through the rest of the tutorial).
+3. To use your own data from Graph Reports API, but want to build your own pipeline, follow the steps outlined in the tutorial (go through steps 1-3, skip step 4, and go through the rest of the steps).
 
 ## Module Components
 Out-of-the box assets for this OEA module include: 
