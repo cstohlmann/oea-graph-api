@@ -13,12 +13,29 @@ This notebook filters out unused data from the raw dataset within stage 1, by th
 | s2np_graphapi OR s2p_graphapi | m365_app_user_detail | Contains past 7 days of students' and teachers' Microsoft 365 applications activity per user | stage 1np GraphAPI data: m365_app_user_detail.json | reportRefreshDate |
 | | | | | userPrincipalName |
 | | | | | lastActivityDate |
-| | | | | details: \[excelWeb, outlookWeb, powerPoint, teamsWeb, teams, outlook, reportPeriod, excel, powerPointWeb, wordWeb, word\]|
+| | | | | lastActivationDate |
+| | | | | details: \[reportPeriod, mobile, web, mac, windows, excel(Mobile)(Web)(Mac), oneNote(Mobile)(Web)(Mac), outlook(Mobile)(Web)(Mac), powerPoint(Mobile)(Web)(Mac), teams(Mobile)(Web)(Mac), word(Mobile)(Web)(Mac)\]|
 | s2np_graphapi OR s2p_graphapi | teams_activity_user_details | Contains past 7 days of students' and teachers' Microsoft Teams activity per user | stage 1np GraphAPI data: teams_activity_user_details.json | reportRefreshDate |
-| | | | | reportPeriod |
 | | | | | userPrincipalName |
+| | | | | lastActivityDate |
+| | | | | reportPeriod |
+| | | | | isDeleted |
+| | | | | deletedDate |
+| | | | | isLicensed |
+| | | | | hasOtherAction |
 | | | | | privateChatMessageCount |
 | | | | | teamsChatMessageCount |
+| | | | | callCount |
+| | | | | meetingCount |
+| | | | | meetingsOrganizedCount |
 | | | | | meetingsAttendedCount |
-| | | | | meetingsCount |
+| | | | | adHocMeetingsOrganizedCount |
+| | | | | adHocMeetingsAttendedCount |
+| | | | | scheduledOneTimeMeetingsOrganizedCount |
+| | | | | scheduledOneTimeMeetingsAttendedCount |
+| | | | | scheduledRecurringMeetingsOrganizedCount |
+| | | | | scheduledRecurringMeetingsAttendedCount |
 | | | | | audioDuration |
+| | | | | screenShareDuration |
+| | | | | videoDuration |
+| | | | | assignedProducts: \[assignedProducts\] |
