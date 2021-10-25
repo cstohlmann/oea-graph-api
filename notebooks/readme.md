@@ -1,6 +1,6 @@
 # Notebooks
 
-Upload this notebook to the Develop tab of your Azure Synapse Analytics, attach to your configured Spark pool and run. This notebook takes the JSON data from stage 1 and transforms/lands the processed data as a Parquet in stage 2 of the data lake. The data is pulled from the Graph API pipeline integration, or from the uploaded datasets.
+Upload this notebook to the Develop tab of your [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/), attach to your configured Spark pool and run. This notebook takes the JSON data from stage 1 and transforms/lands the processed data as a Parquet in stage 2 of the data lake. The data is pulled from the Graph API pipeline integration, or from the uploaded datasets.
 
 This notebook filters out unused data from the raw dataset within stage 1, by the use of the defined schemas; these schemas can be edited to include other relevant data columns, or edited to exclude irrelevant data columns.
 ## Databases and Tables
