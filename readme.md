@@ -40,18 +40,8 @@ These dashboard examples represent only data from Microsoft Teams and O365. When
  - For more information on the Graph Reports API datasets/data sources, open up the [datasets folder](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets).
 ### Module Setup
 <strong><em> Explanation of how to use the module: prerequisites (like subscriptions), what types of data transfer services can be used to ingest in OEA. </strong></em>
-  - Microsoft Graph Reports API is free to access, and does not require a subscription. Although, if you want to pull usage data from O365 and Teams (which is the primary focus of this module), these will require subscriptions for your education system.
- 1. To first familiarize yourself with this module and what data Graph Reports API can offer: you'll need to start by cloning the entire OEA repository through GitHub Desktop. 
-     * Then, navigate to the locally downloaded [datasets](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets), [notebook](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/notebooks/GraphAPI_module_setup.ipynb), and [PowerBI dashboard template](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/powerbi/graphReportsAPI.pbix) within this module. 
-     * Next, upload the GraphAPI folder containing the datasets, and the notebook to your Azure Synapse environment.
-     * Run the notebook. Then, you can open up the PowerBI dashboard template (you'll want to use a DirectQuery of the serverless SQL database; [click here for information on how to do this](https://github.com/microsoft/OpenEduAnalytics/blob/main/docs/OpenEduAnalyticsSolutionGuide.pdf)).
-     * You can interact with the dashboard to gain understanding of what this template within the scope of this module.
-2. To use your own data from Graph Reports API, you can start by navigating to our [pipeline template](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/pipelines/GraphAPI_Pipeline.zip) within your cloned environment.
-     * <strong><em> Please note: you will need to upload the GitHub-Desktop-cloned version of the pipeline template; if you attempt to download the template directly from this module online, you will be unable to upload it within your Azure Synapse workspace. </strong></em>
-     * It is strongly advised that you delete all JSON files previously used (in the last step) from the sample datasets, as you may run into issues processing both your own data and the sample datasets when triggering the pipeline, and running the notebook.
-     * The tutorial explains a step-by-step process of setting your Synapse environment to land Graph Reports API data via managing the endpoints within a pipeline (go through steps 1-2, skip step 3, and follow from step 4 through the rest of the tutorial).
-     * After successfully running the notebook, you can open up the PowerBI dashboard template again - except this time the dashboard will be using <em> your own </em> data.
-3. If you want to use your own data from Graph Reports API, but want to build your own pipeline - follow the steps outlined in the tutorial (go through steps 1-3, skip step 4, and go through the rest of the steps).
+  - Microsoft Graph Reports API is free to access, and does not require a subscription. However, if you want to pull your own usage data from O365 and Teams (which is the primary focus of this module), these will require subscriptions for your education system.
+
 
 ## Module Components
 Out-of-the box assets for this OEA module include: 
