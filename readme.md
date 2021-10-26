@@ -42,8 +42,8 @@ These dashboard examples represent only data from Microsoft Teams and O365. When
 
   - Microsoft Graph Reports API is free to access, and does not require a subscription. However, if you want to pull your own usage data from O365 and Teams (which is the primary focus of this module), these will require subscriptions for your education system.
 
-1. Import the [GraphAPI pipeline template](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/pipelines) into stage1np of your Synapse data lake, connect a Graph API linked service, and trigger the pipeline.
-2. Load and run the [GraphAPI module notebook](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/notebooks) into your Synapse workspace. One spark database (s2_graphapi) will be created.
+1. Import the [Graph Reports API pipeline template](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/pipelines) into stage1np of your Synapse data lake, connect a Graph API linked service, and trigger the pipeline.
+2. Load and run the [Graph Reports API module notebook](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/notebooks) into your Synapse workspace. One spark database (s2_graphapi) will be created.
 3. Download the Power BI template file [Graph Reports API](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/powerbi) and connect to your Synapse workspace serverless SQL endpoint.
 
 ## Module Components
