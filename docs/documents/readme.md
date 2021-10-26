@@ -1,3 +1,4 @@
+ # Tutorial Instructions and How to Use This Module
  1. To first familiarize yourself with this module and what data Graph Reports API can offer: you'll need to start by cloning the entire OEA repository through GitHub Desktop. 
      * Then, navigate to the locally downloaded [datasets](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/Microsoft_Graph/datasets), [notebook](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/notebooks/GraphAPI_module_setup.ipynb), and [PowerBI dashboard template](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/Microsoft_Graph/powerbi/graphReportsAPI.pbix) within this module. 
      * Next, upload the GraphAPI folder containing the datasets, and the notebook to your Azure Synapse environment.
