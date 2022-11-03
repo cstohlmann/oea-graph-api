@@ -1,9 +1,21 @@
 # Test Data
 
-This module includes artificially generated data which matches the format of the three queries used in this module (utilizing the beta version of Graph Reports API):
+This module includes artificially generated data which matches the format of the three "Get" beta queries (i.e. utilizing the beta version of Graph REST API Reports):
  - Microsoft Users: ``` beta/users ```
  - Microsoft 365 Applications User Detail: ``` beta/reports/getM365AppUserDetail(period='D7')/content?$format=application/json ```
  - Teams Activity User Detail: ``` beta/reports/getTeamsUserActivityUserDetail(period='D7')?$format=application/json ```
+
+one "Get" v1.0 query (i.e. using the v1.0 version of the Graph REST API Education):
+ - Education Assignment: ``` v1.0/education/classes/{id}/assignments/{id}?$format=application/json ```
+    * The method supports ```$select``` and other [OData query parameters](https://learn.microsoft.com/en-us/graph/query-parameters) to help customize the response.
+
+and one "Get" v1.0 query used in this module (i.e. using the v1.0 version of the Graph REST API Teamwork and Communications):
+ - Meeting Attendance Report: ``` v1.0/users/{userId}/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords$format=application/json ```
+ - or: ``` v1.0/users/{userId}/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords?$format=application/json ```
+ - or: ``` v1.0/me/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords?$format=application/json ```
+    * The method also supports the [OData query parameters](https://learn.microsoft.com/en-us/graph/query-parameters) to help customize the response.
+
+<strong><em>[^MAY HAVE TO EDIT THESE LAST FEW v1.0 QUERIES; NOT TESTED YET]</strong></em>.
 
 For more detailed explanations, read the tutorial documentation [here](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/docs/Graph%20Reports%20API%20Module%20Tutorial.pdf). For more information on these queries and others that can be used, [click here](https://docs.microsoft.com/en-us/graph/) to learn more.
 
@@ -75,3 +87,33 @@ See full details on the [Microsoft Graph Teams Activity User Detail Beta Query](
 | | | screenShareDuration | |
 | | | teamChatMessageCount | |
 | | | videoDuration | |
+
+### Education Assignment
+
+See full details on the [Microsoft Graph Education Assignment v1.0 Query](https://learn.microsoft.com/en-us/graph/api/educationassignment-get?view=graph-rest-1.0&tabs=http), or details on the [Microsoft Graph Education Assignment ResourceType](https://learn.microsoft.com/en-us/graph/api/resources/educationassignment?view=graph-rest-1.0)
+
+| Domain | Table Name | Column Name | Description |
+| --- | --- | --- | --- |
+| Education Assignments | education_assignments | classId | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/educationassignment-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
+| | | displayName | |
+| | | id | |
+| | | <em>and many others</em> | |
+
+### Meeting Attendance Report
+
+See full details on the [Microsoft Graph Meeting Attendance Report v1.0 Query](https://learn.microsoft.com/en-us/graph/api/meetingattendancereport-get?view=graph-rest-1.0&tabs=http), or details on the [Microsoft Graph Education Assignment ResourceType](https://learn.microsoft.com/en-us/graph/api/resources/meetingattendancereport?view=graph-rest-1.0)
+
+| Domain | Table Name | Column Name | Description |
+| --- | --- | --- | --- |
+| Meeting Attendance Report | meeting_attendance_report | id | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/meetingattendancereport-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
+| | | totalParticipantCount | |
+| | | meetingStartDateTime | |
+| | | meetingEndDateTime | |
+| | | attendanceRecords_userEmail | |
+| | | attendanceRecords_totalAttendanceInSec | |
+| | | attendanceRecords_role | |
+| | | attendanceRecords_identity_id | |
+| | | attendanceRecords_identity_displayName | |
+| | | attendanceRecords_identity_tenantId | |
+| | | <em>and many others</em> | |
+
