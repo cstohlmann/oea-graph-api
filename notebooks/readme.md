@@ -1,41 +1,11 @@
 # Notebooks
 
-Upload this notebook to the Develop tab of your [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/), attach to your configured Spark pool and run. This notebook takes the JSON data from stage 1 and transforms/lands the processed data as a Parquet in stage 2 of the data lake. The data is pulled from the Graph API pipeline integration, or from the uploaded datasets.
+This module incorporates two notebooks needed to support the main [module pipeline](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/pipeline). Both notebooks depend on the [OEA python class](https://github.com/microsoft/OpenEduAnalytics/blob/main/framework/synapse/notebook/OEA_py.ipynb) which is a part of the [OEA framework](https://github.com/microsoft/OpenEduAnalytics/tree/main/framework).
 
-This notebook filters out unused data from the raw dataset within stage 1, by the use of the defined schemas; these schemas can be edited to include other relevant data columns, or edited to exclude irrelevant data columns.
-## Databases and Tables
-| Databases Created | Tables Created | Table Purpose | Data Source Used | Data Used |
-| --- | --- | --- | --- | --- |
-| s2np_graphapi OR s2p_graphapi | users | Contains all students' and teachers' Microsoft user information | stage 1np GraphAPI data: users.json | surname |
-| | | | | givenName |
-| | | | | userPrincipalName |
-| | | | | givenName |
-| s2np_graphapi OR s2p_graphapi | m365_app_user_detail | Contains past 7 days of students' and teachers' Microsoft 365 applications activity per user | stage 1np GraphAPI data: m365_app_user_detail.json | reportRefreshDate |
-| | | | | userPrincipalName |
-| | | | | lastActivityDate |
-| | | | | lastActivationDate |
-| | | | | details: \[reportPeriod, mobile, web, mac, windows, excel(Mobile)(Web)(Mac)(Windows), oneNote(Mobile)(Web)(Mac)(Windows), outlook(Mobile)(Web)(Mac)(Windows), powerPoint(Mobile)(Web)(Mac)(Windows), teams(Mobile)(Web)(Mac)(Windows), word(Mobile)(Web)(Mac)(Windows)\]|
-| s2np_graphapi OR s2p_graphapi | teams_activity_user_details | Contains past 7 days of students' and teachers' Microsoft Teams activity per user | stage 1np GraphAPI data: teams_activity_user_details.json | reportRefreshDate |
-| | | | | userPrincipalName |
-| | | | | lastActivityDate |
-| | | | | reportPeriod |
-| | | | | isDeleted |
-| | | | | deletedDate |
-| | | | | isLicensed |
-| | | | | hasOtherAction |
-| | | | | privateChatMessageCount |
-| | | | | teamsChatMessageCount |
-| | | | | callCount |
-| | | | | meetingCount |
-| | | | | meetingsOrganizedCount |
-| | | | | meetingsAttendedCount |
-| | | | | adHocMeetingsOrganizedCount |
-| | | | | adHocMeetingsAttendedCount |
-| | | | | scheduledOneTimeMeetingsOrganizedCount |
-| | | | | scheduledOneTimeMeetingsAttendedCount |
-| | | | | scheduledRecurringMeetingsOrganizedCount |
-| | | | | scheduledRecurringMeetingsAttendedCount |
-| | | | | audioDuration |
-| | | | | screenShareDuration |
-| | | | | videoDuration |
-| | | | | assignedProducts: \[assignedProducts\] |
+## Module Python Class Notebook: [GraphAPI_py.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/GraphAPI_py.ipynb)
+
+The module python class notebook that defines the data schemas and pseudonomization. Basic functions for data ingestion and processing from Stage 1 to Stage 2 data lakes are also included.
+
+## Module Data Ingestion Notebook: [GraphAPI_module_ingestion.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/GraphAPI_module_ingestion.ipynb)
+
+Module data ingestion notebook which depends on the module class. The pipeline template incoporates this notebook. 
