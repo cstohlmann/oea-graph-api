@@ -19,6 +19,15 @@ and one "Get" v1.0 query used in this module (i.e. using the v1.0 version of the
 
 For more detailed explanations, read the tutorial documentation [here](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/docs/Graph%20Reports%20API%20Module%20Tutorial.pdf). For more information on these queries and others that can be used, [click here](https://docs.microsoft.com/en-us/graph/) to learn more.
 
+### Possible Other Valuable Queries
+
+| Query | Purpose/Value | 
+| --- | --- | 
+| [List Education Assignment Submissions](https://learn.microsoft.com/en-us/graph/api/educationassignment-list-submissions?view=graph-rest-1.0&tabs=http) | Would give a list of student submissions to the assignment to track context of student engagement with course materials. |
+|  |  |
+|  |  |
+|  |  |
+
 ## Data Dictionary 
 
 ### [Users Table](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/test_data/GraphAPI/Users/part-00000-cae42818-3572-4824-b396-58587ad01616-c000.json)
@@ -94,7 +103,7 @@ See full details on the [Microsoft Graph Education Assignment v1.0 Query](https:
 
 | Domain | Table Name | Column Name | Description |
 | --- | --- | --- | --- |
-| Education Assignments | education_assignments | classId | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/educationassignment-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
+| Assignment Details | education_assignments | classId | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/educationassignment-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
 | | | displayName | |
 | | | id | |
 | | | <em>and many others</em> | |
