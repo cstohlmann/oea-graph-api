@@ -1,36 +1,20 @@
 # Test Data
 
-This module includes artificially generated data which matches the format of the three "Get" beta queries (i.e. utilizing the beta version of Graph REST API Reports):
+This module includes artificially generated data which matches the format of three queries used in this module (utilizing the beta version of Graph REST API Reports):
  - Microsoft Users: ``` beta/users ```
  - Microsoft 365 Applications User Detail: ``` beta/reports/getM365AppUserDetail(period='D7')/content?$format=application/json ```
  - Teams Activity User Detail: ``` beta/reports/getTeamsUserActivityUserDetail(period='D7')?$format=application/json ```
 
-one "Get" v1.0 query (i.e. using the v1.0 version of the Graph REST API Education):
- - Education Assignment: ``` v1.0/education/classes/{id}/assignments/{id}?$format=application/json ```
-    * The method supports ```$select``` and other [OData query parameters](https://learn.microsoft.com/en-us/graph/query-parameters) to help customize the response.
+And the Higher Education test data additionally contains the format of one query used in this module (utilizing v1.0 of Graph REST API Teamwork and Communications data):
+ - Meeting Attendance Report: ``` v1.0/me/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords ```
 
-and one "Get" v1.0 query used in this module (i.e. using the v1.0 version of the Graph REST API Teamwork and Communications):
- - Meeting Attendance Report: ``` v1.0/users/{userId}/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords$format=application/json ```
- - or: ``` v1.0/users/{userId}/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords?$format=application/json ```
- - or: ``` v1.0/me/onlineMeetings/{meetingId}/attendanceReports/{reportId}?$expand=attendanceRecords?$format=application/json ```
-    * The method also supports the [OData query parameters](https://learn.microsoft.com/en-us/graph/query-parameters) to help customize the response.
+For more detailed explanations, read the tutorial documentation [here](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/docs/Graph%20Reports%20API%20Module%20Tutorial.pdf). For more information on these queries and others that can be used, [click here](https://docs.microsoft.com/en-us/graph/) or refer to below, to learn more.
 
-<strong><em>[^MAY HAVE TO EDIT THESE LAST FEW v1.0 QUERIES; NOT TESTED YET]</strong></em>.
-
-For more detailed explanations, read the tutorial documentation [here](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/docs/Graph%20Reports%20API%20Module%20Tutorial.pdf). For more information on these queries and others that can be used, [click here](https://docs.microsoft.com/en-us/graph/) to learn more.
-
-### Possible Other Valuable Queries
-
-| Query | Purpose/Value | 
-| --- | --- | 
-| [List Education Assignment Submissions](https://learn.microsoft.com/en-us/graph/api/educationassignment-list-submissions?view=graph-rest-1.0&tabs=http) | Would give a list of student submissions to the assignment to track context of student engagement with course materials. |
-|  |  |
-|  |  |
-|  |  |
+<strong>Note:</strong> This module contains two sets of test data - one set for mock K-12 data, and one set for mock higher education data. You can choose which test data set to ingest via the module pipeline template; for details see the [module pipeline page](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/pipeline).
 
 ## Data Dictionary 
 
-### [Users Table](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/test_data/GraphAPI/Users/part-00000-cae42818-3572-4824-b396-58587ad01616-c000.json)
+### [K-12 Users Table](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/test_data/k12_test_data/Users/part-00000-cae42818-3572-4824-b396-58587ad01616-c000.json) and [HEd Users Table](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/test_data/hed_test_data/Users/part-00000-cae42818-3572-4824-b396-58587ad01616-c000.json) 
 
 See full details on the [Microsoft Graph Users Beta Query](https://docs.microsoft.com/en-us/graph/api/user-get?view=graph-rest-beta&tabs=http)
 
@@ -41,7 +25,7 @@ See full details on the [Microsoft Graph Users Beta Query](https://docs.microsof
 | | | userPrincipalName | user email identifier |
 | | | id | user ID |
 
-### [M365 Applications User Detail](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/GraphAPI/M365_App_User_Detail)
+### [K-12 M365 Applications User Detail](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/k12_test_data/M365_App_User_Detail) and [HEd M365 Applications User Detail](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/hed_test_data/M365_App_User_Detail)
 
 See full details on the [Microsoft Graph M365 Applications User Detail Beta Query](https://docs.microsoft.com/en-us/graph/api/reportroot-getm365appuserdetail?view=graph-rest-beta&tabs=http)
 
@@ -67,7 +51,7 @@ See full details on the [Microsoft Graph M365 Applications User Detail Beta Quer
 | | | teams(Mac)(Mobile)(Web)(Windows) | Boolean expression of if this app has been used |
 | | | word(Mac)(Mobile)(Web)(Windows) | Boolean expression of if this app has been used |
 
-### [Teams Activity User Detail](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/GraphAPI/Teams_Activity_User_Detail)
+### [K-12 Teams Activity User Detail](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/k12_test_data/Teams_Activity_User_Detail) and [HEd Teams Activity User Detail](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/hed_test_data/Teams_Activity_User_Detail)
 
 See full details on the [Microsoft Graph Teams Activity User Detail Beta Query](https://docs.microsoft.com/en-us/graph/api/reportroot-getteamsuseractivityuserdetail?view=graph-rest-beta)
 
@@ -97,32 +81,22 @@ See full details on the [Microsoft Graph Teams Activity User Detail Beta Query](
 | | | teamChatMessageCount | |
 | | | videoDuration | |
 
-### Education Assignment
+### [HEd Meeting Attendance Report](https://github.com/microsoft/OpenEduAnalytics/tree/main/modules/module_catalog/Microsoft_Graph/test_data/hed_test_data/Meeting_Attendance_Report)
 
-See full details on the [Microsoft Graph Education Assignment v1.0 Query](https://learn.microsoft.com/en-us/graph/api/educationassignment-get?view=graph-rest-1.0&tabs=http), or details on the [Microsoft Graph Education Assignment ResourceType](https://learn.microsoft.com/en-us/graph/api/resources/educationassignment?view=graph-rest-1.0)
-
-| Domain | Table Name | Column Name | Description |
-| --- | --- | --- | --- |
-| Assignment Details | education_assignments | classId | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/educationassignment-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
-| | | displayName | |
-| | | id | |
-| | | <em>and many others</em> | |
-
-### Meeting Attendance Report
-
-See full details on the [Microsoft Graph Meeting Attendance Report v1.0 Query](https://learn.microsoft.com/en-us/graph/api/meetingattendancereport-get?view=graph-rest-1.0&tabs=http), or details on the [Microsoft Graph Education Assignment ResourceType](https://learn.microsoft.com/en-us/graph/api/resources/meetingattendancereport?view=graph-rest-1.0)
+See full details on the [Microsoft Graph Meeting Attendance Report v1.0 Query](https://learn.microsoft.com/en-us/graph/api/meetingattendancereport-get?view=graph-rest-1.0&tabs=http). The original files are structured with nested JSON arrays, which are then flattened into a single table, post-ingestion. Below contains the flattened column names landed in stage 2.
 
 | Domain | Table Name | Column Name | Description |
 | --- | --- | --- | --- |
-| Meeting Attendance Report | meeting_attendance_report | id | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/meetingattendancereport-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
+| Meeting Attendance Report | meeting_attendance_report | meetingId | Refer to the query documentation [here](https://learn.microsoft.com/en-us/graph/api/meetingattendancereport-get?view=graph-rest-1.0&tabs=http) for details on the columns of this table |
 | | | totalParticipantCount | |
 | | | meetingStartDateTime | |
 | | | meetingEndDateTime | |
-| | | attendanceRecords_userEmail | |
-| | | attendanceRecords_totalAttendanceInSec | |
-| | | attendanceRecords_role | |
-| | | attendanceRecords_identity_id | |
-| | | attendanceRecords_identity_displayName | |
-| | | attendanceRecords_identity_tenantId | |
-| | | <em>and many others</em> | |
-
+| | | userEmailAddress | |
+| | | totalAttendanceInSec | |
+| | | role | |
+| | | userId | |
+| | | userDisplayName | |
+| | | userTenantId | |
+| | | attendanceInterval_joinDateTime | |
+| | | attendanceInterval_leaveDateTime | |
+| | | attendanceInterval_durationInSec | |
