@@ -21,6 +21,6 @@ Basic functions for data exploration and visualization from Stage 1 to Stage 2 d
 
 Module table-schema correction notebook, necessary for adding column names and correcting column data types. Steps are clearly outlined in the notebook.
 
-## Module Schema Correction Notebook: [Graph_refine.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_refine.ipynb)
+## Module Refinement Notebook: [Graph_refine.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_refine.ipynb)
 
 Module-specific pseudonymization notebook, necessary for speeding up the process of refining the module tables. Steps are clearly outlined in the notebook.
