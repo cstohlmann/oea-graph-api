@@ -1,0 +1,15 @@
+Entity Name,Attribute Name,Attribute Data Type,Pseudonymization
+meeting_attendance_report,,,
+,meetingId,string,no-op
+,totalParticipantCount,integer,no-op
+,meetingStartDateTime,timestamp,no-op
+,meetingEndDateTime,timestamp,no-op
+,userEmailAddress,string,mask
+,totalAttendanceInSec,integer,no-op
+,role,string,no-op
+,userId,string,hash
+,userDisplayName,string,mask
+,userTenantId,string,no-op
+,attendanceInterval_joinDateTime,timestamp,no-op
+,attendanceInterval_leaveDateTime,timestamp,no-op
+,attendanceInterval_durationInSec,integer,no-op
