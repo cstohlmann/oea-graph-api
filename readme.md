@@ -46,6 +46,8 @@ These dashboard examples represent only data from Microsoft Teams and O365. When
     * Download the module release to your Azure clouddrive \
 `cd clouddrive`\
 `wget https://github.com/microsoft/OpenEduAnalytics/releases/download/module_graph_v0.1rc1/module_graph_v0.1rc1.zip`\
+or 
+`wget https://github.com/cstohlmann/oea-graph-api/releases/download/module_graph_v0.1rc1/module_graph_v0.1rc1.zip`\
 `unzip ./module_graph_v0.1rc1.zip`
     * Run the setup script like this (substitute "mysynapseworkspacename" with your synapse workspace name, which must be less than 13 characters and can only contain letters and numbers - e.g. syn-oea-cisd3v07kw1): \
 `./module_graph_v0.1rc1/setup.sh mysynapseworkspacename`) to install this package into your own environment.
