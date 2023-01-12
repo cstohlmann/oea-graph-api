@@ -16,18 +16,20 @@ This Graph module example notebook:
 
 Basic functions for data exploration and visualization from Stage 1 to Stage 2 data lakes are also included. Steps are clearly outlined and commented.
 
-## Module Land Test Data Notebook: [Graph_land_test_data.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_land_test_data.ipynb)
+## Module Pipeline Support Notebooks
+
+### Module Land Test Data Notebook: [Graph_land_test_data.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_land_test_data.ipynb)
 
 Module notebook responsible for speeding up the process of landing the OEA test data set chosen (either K-12 or higher ed. test data) to ```stage1``` of the data lake.
 
-## Module Pre-Processing Notebook: [Graph_pre-processing.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_pre-processing.ipynb)
+### Module Pre-Processing Notebook: [Graph_pre-processing.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_pre-processing.ipynb)
 
 Module-specific notebook for cleaning the meeting_attendance_report table prior to ingestion. This overwrites the schema in stage1. Steps are clearly outlined in the notebook.
 
-## Module Schema Correction Notebook: [Graph_schema_correction.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_schema_correction.ipynb)
+### Module Schema Correction Notebook: [Graph_schema_correction.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_schema_correction.ipynb)
 
 Module table-schema correction notebook, necessary for flattening original JSON nested-array schema and correcting some column data types. Steps are clearly outlined in the notebook. Reads from ```stage2/Ingested/graph_api/(beta or v1.0)``` and writes to ```stage2/Ingested_Corrected/graph_api/(beta or v1.0)```.
 
-## Module Refinement Notebook: [Graph_refine.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_refine.ipynb)
+### Module Refinement Notebook: [Graph_refine.ipynb](https://github.com/microsoft/OpenEduAnalytics/blob/main/modules/module_catalog/Microsoft_Graph/notebook/Graph_refine.ipynb)
 
 Module-specific pseudonymization notebook, necessary for speeding up the process of refining the module tables. Steps are clearly outlined in the notebook.
