@@ -1,10 +1,10 @@
 # Pipelines
 
 This module uses a Synapse pipeline to:
-1. Land Microsoft Education Insights test data into ```stage1/Transactional/graph_api/(beta or v1.0)``` of the data lake (this step is omitted for production data).
+1. Land Microsoft Graph test data into ```stage1/Transactional/graph_api/(beta or v1.0)``` of the data lake (this step is omitted for production data).
 2. Ingest data into ```stage2/Ingested/graph_api/(beta or v1.0)``` and create a lake database (db) for queries.
 3. Correct the table schemas into ```stage2/Ingested_Corrected/graph_api/(beta or v1.0)```
-3. Refine data into ```stage2/Refined/graph_api/(beta or v1.0)/(general and sensitive)``` and create lake and SQL dbs for queries.
+4. Refine data into ```stage2/Refined/graph_api/(beta or v1.0)/(general and sensitive)``` and create lake and SQL dbs for queries.
     * Use the ```sdb_(dev or other workspace)_s2r_graph_api_(beta and v1p0)``` for connecting the serverless SQL db with Power BI DirectQuery.
 
 Notes:
